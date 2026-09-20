@@ -1,0 +1,30 @@
+{
+  "phase": "Phase 4 - Exploratory Data Analysis",
+  "tabular_eda": {
+    "total_samples": 2500,
+    "class_distribution": {
+      "Low": 1000,
+      "Medium": 875,
+      "High": 625
+    },
+    "figures": [
+      "C:\\Users\\aruni\\Desktop\\New folder\\reports\\figures\\eda_risk_distribution.png",
+      "C:\\Users\\aruni\\Desktop\\New folder\\reports\\figures\\eda_correlation_matrix.png",
+      "C:\\Users\\aruni\\Desktop\\New folder\\reports\\figures\\eda_feature_boxplots.png"
+    ]
+  },
+  "image_eda": {
+    "total_images": 500,
+    "label_counts": {
+      "Crack Detected": 250,
+      "No Crack Detected": 250
+    },
+    "crack_type_counts": {
+      "none": 250,
+      "settlement_vertical": 97,
+      "hairline": 80,
+      "diagonal_shear": 73
+    },
+    "sample_fig": "C:\\Users\\aruni\\Desktop\\New folder\\reports\\figures\\eda_crack_samples.png"
+  }
+}
