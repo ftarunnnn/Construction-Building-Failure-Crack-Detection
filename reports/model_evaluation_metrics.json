@@ -1,0 +1,37 @@
+{
+  "phase": "Phase 8 - Model Evaluation",
+  "machine_learning_metrics": {
+    "model_name": "XGBoost",
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "roc_auc_ovr": 1.0,
+    "confusion_matrix": [
+      [
+        625,
+        0,
+        0
+      ],
+      [
+        0,
+        1000,
+        0
+      ],
+      [
+        0,
+        0,
+        875
+      ]
+    ]
+  },
+  "deep_learning_metrics": {
+    "model_architecture": "PyTorch Multi-Task ResNet/CNN",
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "mean_iou": 0.6657,
+    "mAP_50": 0.8
+  }
+}
